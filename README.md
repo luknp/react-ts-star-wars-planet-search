@@ -59,4 +59,4 @@ użytkownikom o podanych adresach e-mail:
 
 Wykonane zadanie oznacz za pomocą pull requesta zgłaszając podane wyżej osoby w sekcji reviewers.
 
-![drawing](https://github.com/luknp/react-recruitment-task-RAS.git//blob/develop/exampleUI.png)
+![drawing](https://github.com/luknp/react-recruitment-task-RAS/blob/develop/exampleUI.png)
