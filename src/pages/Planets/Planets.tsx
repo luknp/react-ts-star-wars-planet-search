@@ -10,6 +10,12 @@ export default function Planets() {
   const [planets, setPlanets] = useState<Planet[]>([]);
   const [searchPhrase, setSearchPhrase] = useState('');
 
+  const searchPlanets = (planets: Planet[], searchPhrase: string) => {
+    return planets.filter((item: Planet) => {
+      return item.name.toLowerCase().indexOf(searchPhrase.toLowerCase()) > -1;
+    });
+  };
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -30,7 +36,7 @@ export default function Planets() {
       <SearchInput searchPhrase={searchPhrase} setSearchPhrase={setSearchPhrase} placeholder='Search for a planet' />
       <div className='planets__content flex-center'>
         <ul className='planets__content-cards'>
-          {planets.map((planet: Planet) => (
+          {searchPlanets(planets, searchPhrase).map((planet: Planet) => (
             <li key={planet.name} className=''>
               <p>{planet.name}</p>
             </li>
