@@ -17,14 +17,34 @@ input[type='search']::-webkit-search-results-decoration {
   display: none;
 }
 
+//light theme
+// :root {
+//   --color-background: rgba(255, 255, 255, 1);
+//   --color-background-paper: rgba(255, 255, 255, 1);
+//   --color-border: rgba(229, 231, 235, 1);
+//   --color-text: rgba(48, 48, 48, 1);
+//   --color-text-light: rgb(170, 170, 170);
+//   --color-primary: rgb(130, 169, 247);
+//   --color-primary-light: rgb(217, 230, 255);
+//   --color-primary-dark: rgba(49, 126, 235, 1);
+//   --color-error: rgba(233, 66, 54, 1);
+// }
+
+//dark theme
 :root {
-  --color-background-paper: rgba(255, 255, 255, 1);
-  --color-border: rgba(229, 231, 235, 1);
-  --color-text: rgba(48, 48, 48, 1);
+  --color-background: rgb(36, 33, 33);
+  --color-background-paper: rgb(36, 33, 33);
+  --color-border: rgb(123, 123, 123);
+  --color-text: rgb(221, 221, 221);
   --color-text-light: rgb(170, 170, 170);
   --color-primary: rgb(130, 169, 247);
-  --color-primary-light: rgb(217, 230, 255);
+  --color-primary-light: rgb(226, 236, 255);
   --color-primary-dark: rgba(49, 126, 235, 1);
-  --color-primary-contrastText: rgba(49, 126, 235, 1);
   --color-error: rgba(233, 66, 54, 1);
+}
+
+#root {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  min-height: 100vh;
 }

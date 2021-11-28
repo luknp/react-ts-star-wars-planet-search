@@ -22,6 +22,7 @@ export default function Planets() {
     }
     return false;
   };
+  // const status2 = FetchStatus.Error;
 
   return (
     <div className='planets'>

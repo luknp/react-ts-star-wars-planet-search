@@ -9,7 +9,7 @@ To get the frontend running locally:
 clone this repo
 
 ```sh
-git clone -b develop git@github.com:luknp/react-recruitment-task-RAS.git
+git clone git@github.com:luknp/react-recruitment-task-RAS.git
 
 ```
 
