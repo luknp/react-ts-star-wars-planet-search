@@ -1,7 +1,8 @@
 import React from 'react';
+import Planets from 'pages/Planets';
 
 function App() {
-  return <h1>App</h1>;
+  return <Planets />;
 }
 
 export default App;
