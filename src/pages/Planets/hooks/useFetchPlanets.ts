@@ -20,7 +20,7 @@ type Action =
   | { type: FetchStatus.Fetched; payload: Planet[] }
   | { type: FetchStatus.Error; payload: Error };
 
-function useFetchPlanets(initUrl: string): State {
+function useFetchPlanets(initUrl: string, refresh: boolean, refreshCallback: () => void): State {
   const initialState: State = {
     error: undefined,
     data: [],
@@ -55,6 +55,13 @@ function useFetchPlanets(initUrl: string): State {
   useEffect(() => {
     fetchData();
   }, [initUrl]);
+
+  useEffect(() => {
+    if (refresh) {
+      fetchData();
+      refreshCallback();
+    }
+  }, [refresh]);
 
   return state;
 }
