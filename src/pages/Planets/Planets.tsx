@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SearchInput from 'components/SearchInput';
+import Spinner from 'components/Spinner';
 import useFetchPlanets, { FetchStatus } from './hooks/useFetchPlanets';
 import useFilter from './hooks/useFilter';
 import { Planet } from 'types';
@@ -27,7 +28,7 @@ export default function Planets() {
       </header>
       <SearchInput searchPhrase={searchPhrase} setSearchPhrase={setSearchPhrase} placeholder='Search for a planet' />
       <div className='planets__content flex-center'>
-        {checkStatus(FetchStatus.Loading) && <p>Loading..</p>}
+        {checkStatus(FetchStatus.Loading) && <Spinner />}
         {checkStatus(FetchStatus.Error) && <p>{error?.message}</p>}
 
         {checkStatus(FetchStatus.Fetched) && (
