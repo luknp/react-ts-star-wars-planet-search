@@ -33,10 +33,10 @@ export default function Planets() {
         {checkStatus(FetchStatus.Loading) && <Spinner />}
         {checkStatus(FetchStatus.Error) && <ErrorInfo message={error?.message} handleRefresh={() => setRefresh(true)} />}
         {checkStatus(FetchStatus.Fetched) && (
-          <ul className='planets__content-cards'>
+          <ul className='planets__content-cards' data-testid='planets-list'>
             {filteredData.length > 0
               ? filteredData.map((planet: Planet) => (
-                  <li key={planet.name} className=''>
+                  <li key={planet.name} className='' data-testid='planet-item'>
                     <PlanetCard planet={planet} />
                   </li>
                 ))

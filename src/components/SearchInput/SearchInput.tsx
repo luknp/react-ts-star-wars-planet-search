@@ -22,6 +22,7 @@ export default function SearchInput({ searchPhrase, setSearchPhrase, placeholder
         name='search-form'
         id='search-form'
         className='search__input'
+        aria-label='search-input'
         autoComplete='off'
         placeholder={placeholder || 'Search'}
         value={searchPhrase}
@@ -34,6 +35,7 @@ export default function SearchInput({ searchPhrase, setSearchPhrase, placeholder
       {searchPhrase && (
         <svg
           className='search__icon search__icon--clear'
+          aria-label='clear'
           width='24'
           height='24'
           viewBox='0 0 24 24'

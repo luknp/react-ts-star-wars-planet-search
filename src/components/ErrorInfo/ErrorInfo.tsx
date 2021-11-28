@@ -8,10 +8,10 @@ type Props = {
 
 export default function ErrorInfo({ message, handleRefresh }: Props) {
   return (
-    <div className='error'>
+    <div className='error' data-testid='error-info'>
       <h2>ERROR!</h2>
       <h4 className='error__info'>{message || 'Something went wrong while retrieving data from the server'}</h4>
-      <button onClick={handleRefresh} className='error__refresh-button'>
+      <button onClick={handleRefresh} className='error__refresh-button' aria-label='refresh'>
         <svg
           className='error__refresh-button__icon'
           width='24'
