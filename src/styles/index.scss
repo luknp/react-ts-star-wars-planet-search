@@ -1,0 +1,30 @@
+/* clears the ‘X’ from Internet Explorer */
+input[type='search']::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+input[type='search']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+/* clears the ‘X’ from Chrome */
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+:root {
+  --color-background-paper: rgba(255, 255, 255, 1);
+  --color-border: rgba(229, 231, 235, 1);
+  --color-text: rgba(48, 48, 48, 1);
+  --color-text-light: rgb(170, 170, 170);
+  --color-primary: rgb(130, 169, 247);
+  --color-primary-light: rgb(217, 230, 255);
+  --color-primary-dark: rgba(49, 126, 235, 1);
+  --color-primary-contrastText: rgba(49, 126, 235, 1);
+  --color-error: rgba(233, 66, 54, 1);
+}
