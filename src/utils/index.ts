@@ -7,7 +7,6 @@ async function getData<T>(url: string): Promise<T> {
       throw new Error(response.statusText);
     }
     const data = (await response.json()) as T;
-    console.log(data);
     return data;
   } catch (error: any) {
     return Promise.reject(error);
