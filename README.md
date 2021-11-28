@@ -1,5 +1,23 @@
 # react-recruitment-task-RAS
 
+Na podstawie przedstawionego rysunku stwórz wyszukiwarkę planet.
+Wyszukiwanie powinno odbywać się w momencie wpisywania przez użytkownika wartości do pola
+znajdującego się nad listą.
+Wszystkie niezbędne dane potrzebne do zbudowania wyszukiwarki znajdziesz w SWAPI:
+https://swapi.dev/documentation
+Aplikacja musi być stworzona z wykorzystaniem frameworka ReactJS. Pozostałe narzędzia możesz dobrać
+według własnych preferencji. UI aplikacji wykonaj zgodnie z własnym poczuciem estetyki.
+Zadanie opublikuj na prywatnym repozytorium w serwisie github. Repozytorium musi być udostępnione
+użytkownikom o podanych adresach e-mail:
+
+-
+-
+-
+
+Wykonane zadanie oznacz za pomocą pull requesta zgłaszając podane wyżej osoby w sekcji reviewers.
+
+![drawing](https://github.com/luknp/react-recruitment-task-RAS/blob/develop/exampleUI.png)
+
 ## Getting started
 
 You can view a live demo over at https://upbeat-lamarr-e01742.netlify.app/
@@ -36,27 +54,3 @@ to run tests
 ```sh
 yarn run test
 ```
-
-##
-
-Na podstawie przedstawionego rysunku stwórz wyszukiwarkę planet.
-Wyszukiwanie powinno odbywać się w momencie wpisywania przez użytkownika wartości do pola
-znajdującego się nad listą.
-Wszystkie niezbędne dane potrzebne do zbudowania wyszukiwarki znajdziesz w SWAPI:
-https://swapi.dev/documentation
-Aplikacja musi być stworzona z wykorzystaniem frameworka ReactJS. Pozostałe narzędzia możesz dobrać
-według własnych preferencji. UI aplikacji wykonaj zgodnie z własnym poczuciem estetyki.
-Zadanie opublikuj na prywatnym repozytorium w serwisie github. Repozytorium musi być udostępnione
-użytkownikom o podanych adresach e-mail:
-
--
--
--
--
--
--
--
-
-Wykonane zadanie oznacz za pomocą pull requesta zgłaszając podane wyżej osoby w sekcji reviewers.
-
-![drawing](https://github.com/luknp/react-recruitment-task-RAS/blob/develop/exampleUI.png)
