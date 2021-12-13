@@ -1,0 +1,32 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid var(--color-error);
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  &__info {
+    margin-top: 0;
+  }
+  &__refresh-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 2rem;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+    background-color: var(--color-background);
+    border-radius: 0.5rem;
+    font-weight: 800;
+    outline: none;
+    &:hover {
+      background-color: var(--color-primary-light);
+    }
+    &__icon {
+      width: 1rem;
+      margin-right: 0.2rem;
+    }
+  }
+}

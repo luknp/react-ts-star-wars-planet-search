@@ -1,0 +1,36 @@
+.search {
+  position: relative;
+  border: 0 solid;
+  &__input {
+    width: 100%;
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: var(--color-text);
+    border: 2px solid var(--color-border);
+    border-radius: 0.5rem;
+    background-color: var(--color-background);
+    &:focus {
+      border: 2px solid var(--color-primary);
+      outline: none;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    color: var(--color-border);
+    top: 50%;
+    margin-top: -0.6rem;
+  }
+
+  &__icon--loupe {
+    left: 0.75rem;
+  }
+
+  &__icon--clear {
+    position: absolute;
+    right: 0.75rem;
+    margin-top: -0.75rem;
+    cursor: pointer;
+  }
+}
