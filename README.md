@@ -12,7 +12,7 @@ To get the frontend running locally:
 clone this repo
 
 ```sh
-git clone git@github.com:luknp/react-recruitment-task-RAS.git
+git clone git@github.com:luknp/react-ts-star-wars-planet-search.git
 
 ```
 
