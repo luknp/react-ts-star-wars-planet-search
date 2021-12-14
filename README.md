@@ -19,7 +19,7 @@ git clone git@github.com:luknp/react-recruitment-task-RAS.git
 enter to the directory
 
 ```sh
-cd react-recruitment-task-RAS
+cd react-ts-star-wars-planet-search
 ```
 
 install all req'd dependencies
