@@ -1,22 +1,7 @@
-# react-recruitment-task-RAS
+# react-ts-star-wars-planet-search
 
-Na podstawie przedstawionego rysunku stwórz wyszukiwarkę planet.
-Wyszukiwanie powinno odbywać się w momencie wpisywania przez użytkownika wartości do pola
-znajdującego się nad listą.
-Wszystkie niezbędne dane potrzebne do zbudowania wyszukiwarki znajdziesz w SWAPI:
-https://swapi.dev/documentation
-Aplikacja musi być stworzona z wykorzystaniem frameworka ReactJS. Pozostałe narzędzia możesz dobrać
-według własnych preferencji. UI aplikacji wykonaj zgodnie z własnym poczuciem estetyki.
-Zadanie opublikuj na prywatnym repozytorium w serwisie github. Repozytorium musi być udostępnione
-użytkownikom o podanych adresach e-mail:
+This application displays planets downloaded from the Star Wars API and basic information about them. Filtering them has also been implemented. It is a project done in a few hours as a recruiting task.
 
--
--
--
-
-Wykonane zadanie oznacz za pomocą pull requesta zgłaszając podane wyżej osoby w sekcji reviewers.
-
-![drawing](https://github.com/luknp/react-recruitment-task-RAS/blob/develop/exampleUI.png)
 
 ## Getting started
 
